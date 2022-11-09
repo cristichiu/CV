@@ -16,6 +16,7 @@ function App() {
       <Route path='despre' element={<Despre />}></Route>
       <Route path='proiecte' element={<Proiecte />}></Route>
       <Route path='experienta' element={<Experienta />}></Route>
+      <Route path='test' element={<div></div>}></Route>
     </Routes>
     <Footer />
   </BrowserRouter>
