@@ -1,0 +1,2 @@
+.menu { margin: 1rem; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding-bottom: 1rem; border-bottom: 1px solid white; }
+.menu > * { font-size: clamp(.5rem, 3vw, 1rem); margin: 1rem; font-family: Helvetica; text-decoration: none; color: white; text-transform: uppercase; cursor: pointer; }

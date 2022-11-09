@@ -1,0 +1,19 @@
+.geometricBackground { background: url("../foto/img.jpg"); background-size: cover; background-position: center; background-attachment: fixed; animation: apear 1s ease-in-out forwards; }
+
+.gridAnim { display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(5, 1fr); grid-gap: 5px; padding: 1rem; }
+.animCube { width: 1vw; height: 1vw; background: rgb(133, 155, 111); box-shadow: 0 0 15px hsl(90, 18%, 50%); }
+.anim { display: flex; flex-direction: column; display: flex; justify-content: center; align-items: center; position: relative; width: 50vw; min-height: 100vh; }
+.container::after { content: ''; width: 0%; height: 1px; bottom: 5px; left: 50%; translate: -50% -50%; background: white; position: absolute; animation: linieApear 1s ease-in-out forwards; }
+.content .slicer { background: white; }
+.content .slicer.axeY { width: 1px; height: 80%; top: 1rem; right: 0; position: absolute; }
+
+.menuBig { display: flex; flex-direction: column; }
+.menuBig .ownerName { font-size: clamp(3rem, 10vw, 10rem); font-family: Arial; color: white; margin: 2rem; opacity: 0; translate: 0 -50px; animation: textApear .5s ease-in-out forwards 1s; }
+.menuBig > .link { text-transform: uppercase; font-family: Arial; font-size: clamp(1.5rem, 5vw, 5rem); color: white; text-decoration: none; margin-left: 5rem; opacity: 0; translate: 0 50px; animation: textApear .5s ease-in-out forwards 1.5s; cursor: pointer; }
+
+.arrowDawn { position: fixed; fill: white; width: 3rem; height: 3rem; bottom: 1rem; right: 1rem; cursor: pointer; z-index: 10000; }
+
+@media (max-width: 250px) { .menuBig > .link { margin: 0; margin-top: 1rem } .menuBig > .ownerName { margin: 0; margin-top: 5rem } .menuBig { text-align: center; } }
+@keyframes textApear { to{ opacity: 1; translate: 0 0; } }
+@keyframes apear { from{ opacity: 0; } to{ opacity: 1; } }
+@keyframes linieApear { to{ width: 80%; } }

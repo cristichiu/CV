@@ -1,0 +1,15 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: black; overflow-x: hidden; }
+#root { width: 100%; min-height: 100vh; }
+.container { display: flex; min-height: 100vh; position: relative; }
+.content { min-height: 100vh; position: relative; }
+.content { z-index: 1000; }
+.fullX { width: 100vw }
+
+@media (max-width: 1000px) { .content, .anim { width: 100%; } .anim { position: absolute; } .content .slicer.axeY { display: none; } .menuBig .ownerName { font-size: clamp(3rem, 20vw, 10rem); } .menuBig > .link { font-size: clamp(1.5rem, 10vw, 5rem); } }
+
+
+.content { display: flex; flex-direction: column; }
+.containergeneral { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
+.containergeneral > * { overflow: visible; width: 50%; }
