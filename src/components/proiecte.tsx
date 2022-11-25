@@ -25,7 +25,7 @@ const Proiecte = () => {
                 <div className='flex center colDir apear'>
                     <img src="../../setPublic/foto/proiecte/2.png" alt="proiect2" />
                     <div className='proiectDescription'>
-                        <div className="proiectTitlu">Design Clasic, Vechi.</div>
+                        <div className="proiectTitlu">Design Clasic.</div>
                         Aici se regăsește un tip deosebit de design a unui ziar vechi in care este prezentată Republica Moldova.
                     </div>
                     <a className='proectLink' target="project" href="https://moldova.cristichiu.repl.co/home">Proiect</a>
@@ -35,7 +35,7 @@ const Proiecte = () => {
                     <img src="../../setPublic/foto/proiecte/3.png" alt="proiect3" />
                     <div className='proiectDescription'>
                         <div className="proiectTitlu">Baza de date.</div>
-                        Acest proiect momentan nu este finisat, însă include o baza de date cu un pachet nodeJS cu care poți crea și stoca pe un site diferite date.
+                        Acest proiect momentan nu este finisat, însă include o baza de date cu un pachet NodeJS cu care poți crea și stoca pe un site diferite date JSON.
                     </div>
                     <div className='proectLink proiectNefinalizat cursorBlock'>Proiect Nefinalizat</div>
                     <a className='proectLink' target="surse" href="https://github.com/cristichiu/ChiuDB">Sursa</a>

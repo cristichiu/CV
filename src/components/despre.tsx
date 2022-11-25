@@ -83,7 +83,7 @@ const Despre = () => {
             setWait(true)
             setTimeout( async () => {
                 setWait(false)
-            }, 2500)
+            }, 2000)
         }
     }
     return (<>

@@ -10,7 +10,6 @@ const Abilitati = () => {
     root?.classList.add("geometricBackground")
     useEffect(() => {
         const path = document.getElementsByTagName('path')
-        const abilitatiContainer = document.getElementsByClassName("abilitatiContainer")[0]
         path[0].scrollIntoView({
             behavior: "smooth",
             block: "center",
