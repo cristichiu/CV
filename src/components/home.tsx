@@ -44,13 +44,13 @@ const Home = () => {
     return (<>
     <div className='container'>
         <div className='content homeContent'>
-            <Menu />
+            <Menu activePage="home"/>
             <div className="menuSet menuBig">
                 <div className='ownerName'>Cristian</div>
                 <Link className='link' to='/despre'>despre</Link>
                 <Link className='link' to='/proiecte'>proiecte</Link>
-                <Link className='link' to='/experienta'>experiență</Link>
-                <div className='link' onClick={() => { window.scrollBy(0, document.body.scrollHeight) }}>contact</div>
+                <Link className='link' to='/abilitati'>abilitati</Link>
+                <div className='link' onClick={() => { document.getElementsByClassName("footer")[0].scrollIntoView(true); }}>contact</div>
             </div>
             <div className="slicer axeY"></div>
         </div>
@@ -59,7 +59,7 @@ const Home = () => {
                 <div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div><div className='animCube'></div>
             </div>
         </div>
-        <svg onClick={() => { window.scrollBy(0, document.body.scrollHeight) }} className='arrowDawn' id="Layer_1" version="1.1" viewBox="0 0 512 512" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><polygon points="396.6,160 416,180.7 256,352 96,180.7 115.3,160 256,310.5 "/></svg>
+        <svg onClick={() => { document.getElementsByClassName("footer")[0].scrollIntoView(true); }} className='arrowDawn' id="Layer_1" version="1.1" viewBox="0 0 512 512" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><polygon points="396.6,160 416,180.7 256,352 96,180.7 115.3,160 256,310.5 "/></svg>
     </div>
     </>)
 }

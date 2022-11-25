@@ -1,0 +1,13 @@
+.proiecteContent { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; position: relative; align-content: center; margin: 2rem; }
+
+.proiecteContent > div { padding: 1rem; width: 100%; border-bottom: 1px solid white; border-top: 1px solid white; border-radius: 10px; text-align: center; }
+.proiecteContent > div > img { width: 100%; padding: 1rem; margin: 1rem; opacity: 0; animation: apear 1s forwards 1s; }
+.proiectTitlu { font-size: 1.5rem; margin-bottom: .5rem; }
+.proiectDescription { color: white; margin-bottom: 1rem; opacity: 0; animation: apear 1s forwards 1.5s; }
+.proectLink { text-decoration: none; color: white; width: 100%; text-align: center; padding: .5rem 1rem; border-top: 1px solid gray; border-bottom: 1px solid gray; border-radius: 20px; margin: .5rem; opacity: 0; translate: 0 100px; animation: transApear 1s forwards 2s; transition: .3s; }
+.proiectNefinalizat { background: hsl(0, 100%, 20%) !important; position: relative; }
+.proectLink:hover { background: rgb(41, 41, 41); }
+
+@media (max-width: 350px) {
+    .proiecteContent { grid-template-columns: 1fr }
+}

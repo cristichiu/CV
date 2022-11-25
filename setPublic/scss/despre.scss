@@ -1,0 +1,4 @@
+.despreContainer > * { overflow: visible; width: 50%; position: absolute }
+
+.pagesSlierContainer { position: absolute; display: flex; color: white; justify-content: center; bottom: 0; }
+.pagesSlierContainer > .pagesSlier { margin: 1rem; font-size: 2rem; padding: .2rem 2rem; box-shadow: inset 1px 1px 1px white, 1px 1px 1px white; cursor: pointer; border-radius: 20px; min-width: 50px; }

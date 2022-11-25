@@ -3,13 +3,19 @@ html { scroll-behavior: smooth; }
 body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: black; overflow-x: hidden; }
 #root { width: 100%; min-height: 100vh; }
 .container { display: flex; min-height: 100vh; position: relative; }
-.content { min-height: 100vh; position: relative; }
-.content { z-index: 1000; }
+.content { min-height: 100vh; position: relative; z-index: 1000; display: flex; flex-direction: column; }
+.content, .anim { width: 50vw }
 .fullX { width: 100vw }
+.cursorBlock { cursor: not-allowed !important; }
+.generalContent { height: 100%; opacity: 1; transition: 1s }
+.invisible { opacity: 0; }
+.flex { display: flex; }
+.center { justify-content: center; align-items: center; }
+.grid { display: grid; }
+.colDir { flex-direction: column; }
+.apear { animation: apear 1s forwards; }
 
 @media (max-width: 1000px) { .content, .anim { width: 100%; } .anim { position: absolute; } .content .slicer.axeY { display: none; } .menuBig .ownerName { font-size: clamp(3rem, 20vw, 10rem); } .menuBig > .link { font-size: clamp(1.5rem, 10vw, 5rem); } }
 
-
-.content { display: flex; flex-direction: column; }
-.containergeneral { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }
-.containergeneral > * { overflow: visible; width: 50%; }
+@keyframes transApear { to{ opacity: 1; translate: 0 0; } }
+@keyframes apear { from{ opacity: 0; } to{ opacity: 1; } }

@@ -1,0 +1,9 @@
+.loadingFull { width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; }
+
+.loadingLogo { min-width: 75px; max-width: 150px; width: 30vw; }
+.loadingLogo > path {
+    --delay: 0;
+    animation: animatieLogo 2s ease-in-out infinite var(--delay);
+}
+
+@keyframes animatieLogo { to{ stroke-dashoffset: 0; } }
