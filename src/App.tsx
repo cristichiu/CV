@@ -21,6 +21,7 @@ function App() {
         <Route path='proiecte' element={<Proiecte />}></Route>
         <Route path='abilitati' element={<Abilitati />}></Route>
       </Routes>
+      {/* Acesta Este un test!!! */}
       <Footer />
     </Suspense>
   </BrowserRouter>
