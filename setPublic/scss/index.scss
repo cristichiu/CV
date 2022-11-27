@@ -1,5 +1,6 @@
 * { padding: 0; margin: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+.geometricBackground { background: url("../foto/img.jpg"); background-size: cover; background-position: center; background-attachment: fixed; animation: apear 1s ease-in-out forwards; }
 body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: black; overflow-x: hidden; }
 #root { width: 100%; min-height: 100vh; }
 .container { display: flex; min-height: 100vh; position: relative; }
@@ -14,7 +15,6 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 .grid { display: grid; }
 .colDir { flex-direction: column; }
 .apear { animation: apear 1s forwards; }
-.geometricBackground { background: url("../foto/img.jpg"); background-size: cover; background-position: center; background-attachment: fixed; animation: apear 1s ease-in-out forwards; }
 
 @media (max-width: 1000px) { .content, .anim { width: 100%; } .anim { position: absolute; } .content .slicer.axeY { display: none; } .menuBig .ownerName { font-size: clamp(3rem, 20vw, 10rem); } .menuBig > .link { font-size: clamp(1.5rem, 10vw, 5rem); } }
 

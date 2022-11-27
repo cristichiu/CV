@@ -8,8 +8,6 @@ import '../../setPublic/scss/home.scss'
 const Home = () => {
     const speed = 100
     useEffect(() => {
-        const root = document.getElementById('root')
-        root?.classList.add("geometricBackground")
         const animation: any = anime.timeline({
             targets: '.animCube',
             loop: true,

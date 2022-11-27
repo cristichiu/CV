@@ -3,6 +3,11 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 import Loading from './components/loading'
 import Home from './components/home'
+// import Footer from './components/footer'
+// import Despre from './components/despre'
+// import Proiecte from './components/proiecte'
+// import Abilitati from './components/abilitati'
+// const Home = lazy(() => import('./components/home'))
 const Footer = lazy(() => import('./components/footer'))
 const Despre = lazy(() => import('./components/despre'))
 const Proiecte = lazy(() => import('./components/proiecte'))

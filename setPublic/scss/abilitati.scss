@@ -1,5 +1,4 @@
 .abilitatiContent { display: flex; justify-content: center; align-items: center; }
-
 .abilitatiContainer { overflow: auto; width: 70%; margin: 2rem; }
 .abilitatiContainer > svg { min-width: 500px; }
 .abilitatiContainer > svg > path { --delay: 0; animation: strokeApear 5s forwards var(--delay); }

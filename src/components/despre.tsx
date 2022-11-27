@@ -12,9 +12,6 @@ import Page5 from '../../setPublic/svg/despre/page5'
 import '../../setPublic/scss/despre.scss'
 
 const Despre = () => {
-    const root = document.getElementById('root')
-    root?.classList.add("geometricBackground")
-
     const maxPage: number = 5
     const [pages, setPages] = useState<number>(1);
     const [load, setLoad] = useState<boolean>(false);

@@ -6,8 +6,6 @@ import AbilitatiSVG from "../../setPublic/svg/abilitati"
 import '../../setPublic/scss/abilitati.scss'
 
 const Abilitati = () => {
-    const root = document.getElementById('root')
-    root?.classList.add("geometricBackground")
     useEffect(() => {
         const path = document.getElementsByTagName('path')
         path[0].scrollIntoView({

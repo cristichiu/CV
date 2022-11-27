@@ -6,8 +6,6 @@ import Menu from './menu'
 import '../../setPublic/scss/proiecte.scss'
 
 const Proiecte = () => {
-    const root = document.getElementById('root')
-    root?.classList.add("geometricBackground")
     return (<>
     <div className='container'>
         <div className='content fullX'>

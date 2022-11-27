@@ -11,7 +11,8 @@ const Menu = ({ activePage }: IActive) => {
             translateX: [
                 {value: -150+"%", easing: 'easeOutElastic'},
                 {value: 0, easing: 'easeInOutElastic', duration: 1000}
-            ]
+            ],
+            opacity: 1
         })
         const menuLink = document.getElementsByClassName('menuLink')
         const target = document.getElementsByClassName(activePage)[0]
