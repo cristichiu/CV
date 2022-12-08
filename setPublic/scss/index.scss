@@ -2,7 +2,7 @@
 html { scroll-behavior: smooth; }
 .geometricBackground { background: url("../foto/img.jpg"); background-size: cover; background-position: center; background-attachment: fixed; animation: apear 1s ease-in-out forwards; }
 body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: black; overflow-x: hidden; }
-#root { width: 100%; min-height: 100vh; }
+#root { min-height: 100vh; }
 .container { display: flex; min-height: 100vh; position: relative; }
 .content { min-height: 100vh; position: relative; z-index: 1000; display: flex; flex-direction: column; }
 .content, .anim { width: 50vw }
@@ -16,7 +16,7 @@ body { display: flex; justify-content: center; align-items: center; min-height: 
 .colDir { flex-direction: column; }
 .apear { animation: apear 1s forwards; }
 
-@media (max-width: 1000px) { .content, .anim { width: 100%; } .anim { position: absolute; } .content .slicer.axeY { display: none; } .menuBig .ownerName { font-size: clamp(3rem, 20vw, 10rem); } .menuBig > .link { font-size: clamp(1.5rem, 10vw, 5rem); } }
+@media (max-width: 1000px) { .content, .anim { width: 100vw; } .anim { position: absolute; } .content .slicer.axeY { display: none; } .menuBig .ownerName { font-size: clamp(3rem, 20vw, 10rem); } .menuBig > .link { font-size: clamp(1.5rem, 10vw, 5rem); } }
 
 @keyframes transApear { to{ opacity: 1; translate: 0 0; } }
 @keyframes apear { from{ opacity: 0; } to{ opacity: 1; } }

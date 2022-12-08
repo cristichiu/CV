@@ -17,7 +17,7 @@ const Proiecte = () => {
                         <div className="proiectTitlu">Proiect de tip prezentare.</div>
                         Include un proiect care este împărțit în mai multe slide-uri cu diferite elemente de design care a fost creat în scopul unei prezentări.
                     </div>
-                    <a className='proectLink' target="project" href="https://educatie.cristichiu.repl.co/0/0">Proiect</a>
+                    <a className='proectLink' target="project" href="https://educatie.cristichiu.repl.co/1/1">Proiect</a>
                     <a className='proectLink' target="surse" href="https://github.com/cristichiu/EduProject">Sursa</a>
                 </div>
                 <div className='flex center colDir apear'>
@@ -37,6 +37,24 @@ const Proiecte = () => {
                     </div>
                     <div className='proectLink proiectNefinalizat cursorBlock'>Proiect Nefinalizat</div>
                     <a className='proectLink' target="surse" href="https://github.com/cristichiu/ChiuDB">Sursa</a>
+                </div>
+                <div className='flex center colDir apear'>
+                    <img src="../../setPublic/foto/proiecte/4.png" alt="proiect4" />
+                    <div className='proiectDescription'>
+                        <div className="proiectTitlu">Ziar vechi.</div>
+                        Proiect de tip prezentarea unor informatii (blog) cu un design specific unor ziare vechi.
+                    </div>
+                    <a className='proectLink' target="project" href="https://istoria.cristichiu.repl.co">Proiect</a>
+                    <a className='proectLink' target="surse" href="https://github.com/cristichiu/istoria">Sursa</a>
+                </div>
+                <div className='flex center colDir apear'>
+                    <img src="../../setPublic/foto/proiecte/5.png" alt="proiect3" />
+                    <div className='proiectDescription'>
+                        <div className="proiectTitlu">CV.</div>
+                        Un proiect tip CV (actualul proiect).
+                    </div>
+                    <div className='proectLink proiectNefinalizat cursorBlock'>Acest proiect</div>
+                    <a className='proectLink' target="surse" href="https://github.com/cristichiu/CV">Sursa</a>
                 </div>
             </div>
         </div>
