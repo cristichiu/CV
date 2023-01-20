@@ -2,7 +2,7 @@
 
 .footer > .link { width: 2rem; height: 2rem; margin: 1rem; cursor: pointer; position: relative }
 .footer > .link > .icon { stroke: white; transition: .5s; fill: white; overflow: visible; width: 100%; height: 100%; cursor: pointer; }
-.footer > .link > .icon:hover { filter: drop-shadow(0 0 20px white); animation: iconRotation .5s forwards; z-index: 1000; }
+.footer > .link > .icon:hover { filter: drop-shadow(0 0 20px white); animation: iconRotation .4s forwards; z-index: 1000; }
 .iconNumber { position: absolute; color: white; top: -1.2rem; width: max-content; left: -70%; opacity: 0; }
 
 @keyframes iconRotation {
